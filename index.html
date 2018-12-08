@@ -1,0 +1,51 @@
+//create html document with the following text "Guess what letter I'm thinking", "Wins", "Losses", "Guesses left", "Guesses so far
+
+<!DOCTYPE html>
+<html land="en-us">
+
+<head> <meta charset="UTF-8">
+    </head>
+    <body>
+    <h1>The Psychic Game</h1>
+    <p>Guess what letter I'm thinking</p>
+    <p>Number of wins:</p>
+    <p>Number of losses:</p>
+    <div>Guessed so far: </div>
+    <div>Guesses left:</div>
+
+    <script type="text/javascript">
+    var letters = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"];
+    var userGuess = [];
+    var Wins = 0;
+    var Losses = 0;
+
+    var computerChoice = letters[math.floor(math.random() * letters.legnth)]
+            console.log(computerChoice)
+
+    document.onKeyUp = function(event) {
+        var userGuess = event.key;
+        console.log(userGuess)
+    }
+    if (computerChoice === userGuess) {
+      } else { 
+        block of code to be executed if the condition is false
+      }
+
+</body>
+</head>
+
+
+
+
+
+
+
+//computer generate random letter
+
+//user guesses which letter
+
+//display each letter the user has guessed until the user either wins or loses
+
+//when the player wins, increase the wins counter and start the game over again (no refresh)
+
+//Win the player loses, increase the losses counter and restart the game wihtout a page refresh
